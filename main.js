@@ -43,7 +43,7 @@ function display_menu(){
         $("#home_page").append('<div class="category" style="background-color: '+get_random_color(i)+'" id="'+categories[i]+'"></div>'); //make div for category
         $("#"+categories[i]).append(categories[i]); //print category name in div
         for (let j = 0; j < relevant_exos.length; j++) { //print exos in div
-            $("#"+categories[i]).append('<div class="exo" style="background-color: '+get_random_color(i)+'" id="'+relevant_exos[j].name+'" onclick="select_exo(\''+relevant_exos[j].name +'\')">'+relevant_exos[j].name+'</div>'); 
+            $("#"+categories[i]).append('<div class="exo" id="'+relevant_exos[j].name+'" onclick="select_exo(\''+relevant_exos[j].name +'\')">'+relevant_exos[j].name+'</div>'); 
         }
     };
     //$("#raise").css('background-color', get_random_color());
@@ -51,7 +51,8 @@ function display_menu(){
 
 function select_exo(name){
     var selected_exo = exos.find(exo => exo.name === name)
-    $("#"+selected_exo.category).hide();
+    $("#"+selected_exo.category).css('background-color', 'grey');
+    $("#"+selected_exo.category).css('pointer-events', 'none');
     selected_exos.push(selected_exo);
     if (selected_exos.length == categories.length) { //if all exos selected
         play();
