@@ -31,7 +31,7 @@ const exos = [
 
     exo6 = {
         name : "machine",
-        url : "http://techslides.com/demos/sample-videos/small.mp4",
+        url : "http://www.w3schools.com/html/movie.mp4",
         category : "mobilisation"
     }
 ];
