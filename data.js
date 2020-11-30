@@ -13,19 +13,19 @@ const exos = [
     },
 
     exo3 = {
-        name : "genou",
-        url : "http://www.w3schools.com/html/mov_bbb.mp4",
+        name : "coude",
+        url : "videos/coude.mp4",
         category : "articulations"
     },
     exo4 = {
-        name : "poignets",
-        url : "http://www.w3schools.com/html/mov_bbb.mp4",
-        category : "articulations"
+        name : "escalade",
+        url : "videos/escalade.mp4",
+        category : "mobilisation"
     },
 
     exo5 = {
-        name : "squat",
-        url : "http://www.w3schools.com/html/movie.mp4",
+        name : "courir",
+        url : "videos/courir.mp4",
         category : "raise"
     },
 

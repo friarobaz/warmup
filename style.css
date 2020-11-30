@@ -5,53 +5,11 @@
 body{
     font-family: 'Sen', sans-serif;
     overflow: hidden;
+    font-size: 50px;
     background-color: #eee;
 }
 
-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
-    height: 100vh;
-}
 
-.button{
-    cursor: pointer;
-    text-align: center;
-    background-color: rgb(150, 178, 236);
-    border: 1px solid black;
-    padding: 3px;
-    width : 200px;
-}
-
-
-.name_button {
-    background-color: #0000001e;
-    padding: 20px;
-    border-radius: 20px;
-    flex: 0 1;
-}
-
-.name_button:hover {
-    cursor: pointer;
-    background-color: white;
-}
-
-.selected {
-    background-color: rgb(255, 0, 0);
-    pointer-events: none;
-}
-.selected:hover {
-    background-color: rgb(255, 0, 0);
-}
-
-.graph {
-    background-color: chartreuse;
-    margin: 10px;
-}
 
 /*
 div {
