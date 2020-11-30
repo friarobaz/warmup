@@ -22,10 +22,10 @@ body{
 }
 
 .exo{
-    color: violet;
     padding: 20px;
     width: 300px;
     background-color: rgb(99, 87, 83);
+    border-radius: 20px;
    
 }
 
